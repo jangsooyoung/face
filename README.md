@@ -1,4 +1,5 @@
 webcam.py : 
+
     python webcam.py  [gen] [box]  동영상파일 
        gen : 영상중 손 추정 위치찾아 jpg로 생성
        view: 영상중 손 추정 위치찾아 box 표시
@@ -8,6 +9,7 @@ webcam.py :
        ex) python webcam.py 
        
 개발 1단계 
+
     0. "python webcam.py view WEBCAM" 기능 구현하기
     1. 영상을 np array로 변경하여 특정 color를 제거하거나  color로만  영상 보여주기 
     2. 이전 frame 새 frame변경분 추적하여 box표시
@@ -15,6 +17,7 @@ webcam.py :
     
     
 영상촬영 시나리오 
+
     블루Screen 앞에서 얼굴가리거 휴대폰 통화 동작 촬영
     손에 파란 장갑 끼고  휴대폰 통화 동작 촬영
 
