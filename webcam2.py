@@ -28,9 +28,6 @@ while True:
     if cv2.waitKey(30) > 0:
         break
 
-cap_o1.release()
-cap_o2.release()
-cap_o3.release()
-cap_o4.release()
+cap_o.release()
 cap_i.release()
 cv2.destroyAllWindows()
